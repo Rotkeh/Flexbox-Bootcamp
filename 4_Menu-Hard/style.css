@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    background-color: lightgray;
+    height: 2.5rem;
+    width: 60rem;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin: 0 1rem;
+    color: gray;
+}
+
+section:hover {
+    background-color: lightsteelblue;
+}
+
+img {
+    height: 50%;
+    margin: auto auto auto 1rem;
+}
+
+.login {
+    margin: auto 1rem auto auto;
+    border: 1px solid gray;
+    padding: 0.25rem 1rem;
+    border-radius: 0.2rem;
+}
