@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    background-color: lightgray;
+    height: 2.5rem;
+    width: 40rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+section:hover {
+    background-color: gray;
+}
