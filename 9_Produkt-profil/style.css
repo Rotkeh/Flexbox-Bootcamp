@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    height: 32rem;
+    width: 18.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    background-color: rgb(255, 207, 74);
+    margin: 0;
+    padding: .5rem;
+}
+
+figure img {
+    width: 80%;
+    margin: 3.5rem 2rem;
+}
+
+figure p {
+    text-align: end;
+    margin: 0;
+    color: white;
+    opacity: 50%;
+    font-size: .8rem;
+}
+
+section {
+    margin: 1.8rem 1.6rem 2rem 1.6rem;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+h4 {
+    margin-top: .3rem;
+}
+
+.price {
+    margin: 3rem 0 0 0;
+    text-align: end;
+    font-size: 2rem;
+    font-weight: 900;
+}
