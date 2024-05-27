@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    margin: 1rem;
+    display: flex;
+    height: 5rem;
+    width: 60rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+.box1{
+    flex: 1;
+    background-color: red;
+}
+.box2{
+    flex: 1;
+    background-color: rgb(255, 157, 66);
+}
+.box3 {
+    flex: 1;
+    background-color: rgb(201, 212, 42);
+}
+.box4 {
+    flex: 2;
+    background-color: rgb(118, 212, 42);
+}
+.box5 {
+    flex: 3;
+    background-color: rgb(42, 212, 50);
+}
+.box6 {
+    flex: 5;
+    background-color: rgb(42, 212, 141);
+}
+.box7 {
+    flex: 8;
+    background-color: rgb(42, 212, 175);
+}
+.box8 {
+    flex: 13;
+    background-color: rgb(42, 135, 212);
+}
+.box9 {
+    flex: 21;
+    background-color: rgb(192, 42, 212);
+}
+.box10 {
+    flex: 34;
+    background-color: rgb(212, 42, 127);
+}
+
+.countdown {
+    flex-direction: row-reverse;
+}
